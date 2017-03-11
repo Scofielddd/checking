@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CheckIng</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="title_activity_login">CheckIng</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Kullanıcı Adı</string>
+    <string name="prompt_password">Şifre</string>
+    <string name="action_sign_in">Giriş Yap</string>
+    <string name="action_sign_in_short">Giriş Yap</string>
+    <string name="error_invalid_email">Kullanıcı adı hatalı</string>
+    <string name="error_invalid_password">Şifre çok kısa</string>
+    <string name="error_incorrect_password">Şifre hatalı</string>
+    <string name="error_field_required">Bu alan gerekli</string>
+    <string name="permission_rationale">"Rehber erişimi gerekli."
+    </string>
+    <string name="title_activity_register">Kaydol</string>
+    <string name="title_activity_main">TabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="activity_title">CHECKING APP</string>
+    <string name="main_backgroud_title">ANA BAR ARKAPLAN</string>
+</resources>

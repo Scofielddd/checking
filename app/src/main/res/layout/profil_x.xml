@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/my_card_bg"
+                    android:layout_marginTop="185dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingTop="50dp">
+
+                    <TextView
+                        android:text="Abdurrahman Karamanoğlu"
+                        android:textColor="#111d64"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/profileTextName"
+                        android:textAlignment="center"
+                        android:textSize="18dp"
+                        android:textStyle="normal|bold"
+                        android:layout_weight="0.46"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:text="Kullanıcı Adi"
+                        android:textColor="#111d64"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/profileTextUsername"
+                        android:layout_weight="1.49"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:textStyle="normal|italic"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_horizontal"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    app:srcCompat="@drawable/ab"
+                    android:id="@+id/imageView8"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="-25dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false" />
+
+                <ImageView
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/profil"
+                    android:id="@+id/imageView4"
+                    android:layout_marginTop="125dp"
+                    android:layout_weight="0.46"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/my_photo_bg"
+                    android:padding="5px"
+                    android:layout_width="100dp" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/my_card_bg"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:text="Cüzdan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#FF6600"
+                    android:gravity="center_horizontal"/>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/coin"
+                        android:id="@+id/imageView7"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="10dp" />
+
+                    <TextView
+                        android:text="1000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/profileTextPoint"
+                        android:layout_weight="1"
+                        android:textSize="25sp"
+                        android:textAlignment="center"
+                        android:fontFamily="casual"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="#111d64" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/my_card_bg"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <Button
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FF6600"
+                    android:text="Checkingler"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/btnCheckins"
+                    android:layout_weight="1"
+                    android:background="@drawable/my_button_bg"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp" />
+
+                <Button
+
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#FF6600"
+                    android:text="İndirimler"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/button4"
+                    android:layout_weight="1"
+                    android:background="@drawable/my_button_bg"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
